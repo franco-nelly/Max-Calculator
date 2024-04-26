@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form action="">
+                <div class="display">
+                    <input type="text" id="inputfield" placeholder="0" readonly disabled>
+                </div>
+                <div>
+                    <input type="button" value="C"  onclick="iradu('C')">
+                    <input type="button" value="DEL" onclick="iraduku('DEL')">
+                    <input type="button" value="%" onclick="franconelly('%')">
+                    <input type="button" value="/" onclick="franconelly('/')">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="franconelly('7')">
+                    <input type="button" value="8" onclick="franconelly('8')">
+                    <input type="button" value="9" onclick="franconelly('9')">
+                    <input type="button" value="*" onclick="franconelly('*')">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="franconelly('4')">
+                    <input type="button" value="5"  onclick="franconelly('5')">
+                    <input type="button" value="6"  onclick="franconelly('6')">
+                    <input type="button" value="-"  onclick="franconelly('-')">
+                </div>
+                <div>
+                    <input type="button" value="1"  onclick="franconelly('1')">
+                    <input type="button" value="2"  onclick="franconelly('2')">
+                    <input type="button" value="3" onclick="franconelly('3')">
+                    <input type="button" value="+"  onclick="franconelly('+')">
+                </div>
+                <div>
+                    <input type="button" value="." onclick="franconelly('.')">
+                    <input type="button" value="0" onclick="franconelly('0')">
+                    <input type="button" value="=" id="equal" onclick="nellyfranco()">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+ 
+</body>
+</html>
